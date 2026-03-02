@@ -1,5 +1,5 @@
 // 数据库配置 - 支持 MySQL 和 PostgreSQL (Railway)
-require('dotenv').config();
+// require('dotenv').config();
 const mysql = require('mysql2/promise');
 
 // Railway 会自动提供 DATABASE_URL 环境变量
