@@ -1,3 +1,6 @@
+// 加载环境变量
+require('dotenv').config();
+
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
 const cors = require('koa-cors');
