@@ -1,7 +1,7 @@
 const Router = require('koa-router');
 const pool = require('../config/db');
 
-const router = new Router({ prefix: '/api/help' });
+const router = new Router({ prefix: '/api/help-requests' });
 
 // 获取所有求助信息
 router.get('/', async (ctx) => {
